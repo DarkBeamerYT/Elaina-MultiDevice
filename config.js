@@ -24,9 +24,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Kuching').format('HH')
+    let wibm = moment.tz('Asia/Kuching').format('mm')
+    let wibs = moment.tz('Asia/Kuching').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -47,34 +47,34 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
-global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
+global.sig = 'https://instagram.com/darkbeameryt' //Link Instagrammu
+global.sgh = 'https://github.com/DarkbeamerYT' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/GYsXiIKNEsR8Sp1PeqLNX9'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.snh = '-' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '-' //Nomor Danamu
+global.ppulsa = '60197588090' //Nomor SimCard Yang Kamu Pake
+global.psaweria = '-' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281231079387' //Nomor Bot
-global.nomorown = '6285736178354' //Nomor Owner
-global.namebot = 'Elaina BOT' //Nama Bot
-global.nameown = '𝓧𝓲𝓪𝓸 - 𝓨𝓪𝓷' // Nama Owner
+global.nomorbot = '14159002257' //Nomor Bot
+global.nomorown = '60186201710' //Nomor Owner
+global.namebot = 'Dark`s Bot' //Nama Bot
+global.nameown = 'darktzy' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285736178354', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['60186201710', 'DarkBeamerYT', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] // Want some help?
+global.mods = ['60197588090', '14159002257'] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
-global.lolkey = 'apikeymu'
+global.lolkey = '42dd3ecf75f83399f65bc435'
 global.xkey = 'APIKEYMU'
 /*============== API ==============*/
 global.APIs = { // API Prefix
@@ -92,17 +92,17 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'APIKEYMU',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': '42dd3ecf75f83399f65bc435',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://violetics.pw': 'beta'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
-global.namedoc = 'Elaina`s Bot' //Main Name Menu Document
+global.wm = '                dark kontol :v' //Main Watermark
+global.wm2 = '#darksentiasaramah'
+global.wm3 = '#darkpegho'
+global.namedoc = 'Dark`s Bot' //Main Name Menu Document
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -332,7 +332,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 857-3617-8354'
+global.phn = '+60 18-620 1710'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -374,10 +374,10 @@ global.hsquere = ['⛶','❏','⫹⫺']
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
 global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
+global.packname = 'Dark`s Bot'
+global.packname2 = 'darktezehh.'
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier = 15 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
